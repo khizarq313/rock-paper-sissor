@@ -195,14 +195,14 @@ button {
 .play-again-btn {
   margin-top: 1rem;
   word-break: keep-all;
-  background-color: white;
-  color: hsl(237, 49%, 15%);
+  background-color: transparent;
+  color: white;
   width: 18rem;
   font-size: 2.2rem;
   font-weight: 600;
   border-radius: 8px;
   padding: 1rem;
-  border: 1px solid hsl(237, 49%, 15%);
+  border: 1px solid white;
 }
 
 .play-again-btn:hover,
