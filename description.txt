@@ -1,0 +1,18 @@
+3 Screens :-
+#1.Home-page
+#2.Result-page
+#3.Rules-page
+
+Home-page:-
+#1.Title And Score Container
+#2.User/Player Choice Buttons(Rock,Paper,Sissor)
+
+Result-page:-
+#1.Title for Player and Bot
+#2.Player Selected Choice
+#3.Bot randomly Selected Choice
+#4.Result(Player Won/Player Lost)
+#5.Play-Again Button
+
+Rules-page:-
+#1.Rules of game.

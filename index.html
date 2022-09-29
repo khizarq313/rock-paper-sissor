@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Sissors Game</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="overlay hidden"></section>
+    <header>
+      <div class="title-container"></div>
+      <div class="score-container">
+        <h6>SCORE</h6>
+        <h1 class="player-score"></h1>
+      </div>
+    </header>
+    <div class="circle"></div>
+    <main>
+      <section class="home-page">
+        <div class="btn-container">
+          <div class="paper-logo-container logo-container">
+            <button class="paper-btn choice-btn"></button>
+          </div>
+          <div class="sissor-logo-container logo-container">
+            <button class="sissor-btn choice-btn"></button>
+          </div>
+        </div>
+        <div class="btn-container2">
+          <div class="rock-logo-container logo-container">
+            <button class="rock-btn choice-btn"></button>
+          </div>
+        </div>
+      </section>
+      <section class="result-page hidden">
+        <div class="player-choice-container">
+          <h1 class="result-choice-text">YOU PICKED</h1>
+          <div class="player-picked-logo">
+            <div class="player-paper-logo logo-container hidden">
+              <span class="player-paper player-choice"></span>
+            </div>
+            <div class="player-sissor-logo logo-container hidden">
+              <span class="player-sissor player-choice"></span>
+            </div>
+            <div class="player-rock-logo logo-container hidden">
+              <span class="player-rock player-choice"></span>
+            </div>
+          </div>
+        </div>
+        <div class="display-result">
+          <h1 class="win-result hidden">YOU WIN</h1>
+          <h1 class="lose-result hidden">YOU LOSE</h1>
+          <h1 class="draw-result hidden">MATCH DRAW</h1>
+          <button class="play-again-btn">PLAY AGAIN</button>
+        </div>
+        <div class="bot-choice-container">
+          <h1 class="result-choice-text">BOT PICKED</h1>
+          <div class="bot-picked-logo">
+            <div class="bot-paper-logo logo-container hidden">
+              <span class="bot-paper bot-choice"></span>
+            </div>
+            <div class="bot-sissor-logo logo-container hidden">
+              <span class="bot-sissor bot-choice"></span>
+            </div>
+            <div class="bot-rock-logo logo-container hidden">
+              <span class="bot-rock bot-choice"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="rules-page hidden">
+        <div class="rules-page-header">
+          <h1>RULES</h1>
+          <button class="rules-close-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.com/svgjs"
+              x="0"
+              y="0"
+              viewBox="0 0 329.26933 329"
+              style="enable-background: new 0 0 512 512"
+              xml:space="preserve"
+              class=""
+            >
+              <g>
+                <path
+                  d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"
+                  fill="hsl(237, 49%, 15%)"
+                  data-original="#000000"
+                  class=""
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="rules-svg"></div>
+      </section>
+      <button class="rules-open-btn">RULES</button>
+    </footer>
+  </body>
+</html>
